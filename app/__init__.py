@@ -1,5 +1,6 @@
 import os
 from flask import Flask
+from flask_debugtoolbar import DebugToolbarExtension
 from flask.ext.sqlalchemy import SQLAlchemy
 from flask.ext.login import LoginManager
 from flask.ext.openid import OpenID
@@ -9,7 +10,13 @@ from config import basedir, ADMINS, MAIL_SERVER, MAIL_PORT, MAIL_USERNAME, MAIL_
 from momentjs import momentjs
 
 app = Flask(__name__)
+# the toolbar is only enabled in debug mode:
+app.debug = True
+
 app.config.from_object('config')
+
+toolbar = DebugToolbarExtension(app)
+
 db = SQLAlchemy(app)
 lm = LoginManager()
 lm.init_app(app)
