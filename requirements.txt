@@ -17,7 +17,7 @@ Whoosh==2.7.4
 blinker==1.4
 coverage==4.4.1
 decorator==4.1.2
-flup==1.0.3.dev-20110405
+flup==1.0.3.dev20161029
 guess-language==0.2
 gunicorn==0.17.2
 psycopg2==2.5
