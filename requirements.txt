@@ -11,7 +11,7 @@ Jinja2==2.9.6
 MySQL-python==1.2.5
 SQLAlchemy==1.1.14
 Tempita==0.5.2
-WTForms==1.0.3
+WTForms==2.1
 Werkzeug==0.8.3
 Whoosh==2.4.1
 blinker==1.2
