@@ -19,7 +19,7 @@ coverage==4.4.1
 decorator==4.1.2
 flup==1.0.3.dev20161029
 guess-language==0.2
-gunicorn==0.17.2
+gunicorn==19.7.1
 psycopg2==2.5
 python-openid==2.2.5
 pytz==2013b
