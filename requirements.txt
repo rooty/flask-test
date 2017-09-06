@@ -13,7 +13,7 @@ SQLAlchemy==1.1.14
 Tempita==0.5.2
 WTForms==2.1
 Werkzeug==0.12.2
-Whoosh==2.4.1
+Whoosh==2.7.4
 blinker==1.2
 coverage==3.6
 decorator==3.4.0
