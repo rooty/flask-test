@@ -16,7 +16,7 @@ Werkzeug==0.12.2
 Whoosh==2.7.4
 blinker==1.4
 coverage==4.4.1
-decorator==3.4.0
+decorator==4.1.2
 flup==1.0.3.dev-20110405
 guess-language==0.2
 gunicorn==0.17.2
