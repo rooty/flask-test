@@ -4,7 +4,7 @@ Flask-Babel==0.11.2
 Flask-Login==0.4.0
 Flask-Mail==0.9.1
 Flask-OpenID==1.2.5
-Flask-SQLAlchemy==0.16
+Flask-SQLAlchemy==2.2
 Flask-WTF==0.8.3
 git+git://github.com/miguelgrinberg/Flask-WhooshAlchemy
 Jinja2==2.6
